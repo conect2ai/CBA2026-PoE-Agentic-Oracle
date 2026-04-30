@@ -1,0 +1,700 @@
+
+========================================================================
+🚦 INICIANDO COMITÊ DE AUDITORIA IA (LANGGRAPH)
+========================================================================
+Fluxo: Scientist -> Investigator -> Judge -> ContractPreparer
+   - total_arquivos_csv: 10
+   - driver_wallet: 0xABCDEF...
+   - engine_size_cc: 1.0
+
+========================================================================
+🧪 TESTE 1/10 | Arquivo: 01_viagem_perfeita.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/01_viagem_perfeita.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/01_viagem_perfeita.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Linhas recebidas: 645
+   [Cientista/Física] Métricas calculadas com sucesso.
+   - distance_km: 5.97
+   - duration_seconds: 645
+   - avg_speed_kmh: 33.3
+   - max_speed_kmh: 62.0
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 243.25
+   - actual_co2_emitted_grams: 0
+   - baseline_co2_expected_grams: 1253.0
+   - co2_saved_grams: 1253
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: success
+   - co2_saved_grams: 1253
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 5.97
+   - co2_saved_grams: 1253
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 243.25
+   [Aviso] LLM indisponível para Investigador (Object of type int64 is not JSON serializable). Usando heurística.
+   - fraud_score_heuristico: 0
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 0
+   - distance_km: 5.97
+   - co2_saved_grams: 1253
+   [Aviso] LLM indisponível para o Juiz (Object of type int64 is not JSON serializable). Decisão automática (Score < 5).
+   - veredito_automatico: APROVADO ✅
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Preparando transação para a rede Besu...
+   - function_to_call: mintVerifiedCredit
+   - driver: 0xABCDEF...
+   - co2Grams: 1253
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: True
+   - fraud_score: 0
+   - co2_saved_grams: 1253
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{
+  "function_to_call": "mintVerifiedCredit",
+  "arguments": {
+    "driver": "0xABCDEF...",
+    "co2Grams": 1253,
+    "tokenURI": "ipfs://<METADATA>",
+    "auditReport": "Decis\u00e3o autom\u00e1tica baseada no score de risco 0."
+  }
+}
+
+========================================================================
+🧪 TESTE 2/10 | Arquivo: 02_eco_motorista.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/02_eco_motorista.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/02_eco_motorista.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Linhas recebidas: 645
+   [Cientista/Física] Métricas calculadas com sucesso.
+   - distance_km: 8.96
+   - duration_seconds: 645
+   - avg_speed_kmh: 50.0
+   - max_speed_kmh: 50.0
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 145.95
+   - actual_co2_emitted_grams: 0
+   - baseline_co2_expected_grams: 1881.25
+   - co2_saved_grams: 1881
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: success
+   - co2_saved_grams: 1881
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 8.96
+   - co2_saved_grams: 1881
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 145.95
+   [Aviso] LLM indisponível para Investigador (Object of type int64 is not JSON serializable). Usando heurística.
+   - fraud_score_heuristico: 0
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 0
+   - distance_km: 8.96
+   - co2_saved_grams: 1881
+   [Aviso] LLM indisponível para o Juiz (Object of type int64 is not JSON serializable). Decisão automática (Score < 5).
+   - veredito_automatico: APROVADO ✅
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Preparando transação para a rede Besu...
+   - function_to_call: mintVerifiedCredit
+   - driver: 0xABCDEF...
+   - co2Grams: 1881
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: True
+   - fraud_score: 0
+   - co2_saved_grams: 1881
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{
+  "function_to_call": "mintVerifiedCredit",
+  "arguments": {
+    "driver": "0xABCDEF...",
+    "co2Grams": 1881,
+    "tokenURI": "ipfs://<METADATA>",
+    "auditReport": "Decis\u00e3o autom\u00e1tica baseada no score de risco 0."
+  }
+}
+
+========================================================================
+🧪 TESTE 3/10 | Arquivo: 03_viagem_etanol.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/03_viagem_etanol.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/03_viagem_etanol.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Linhas recebidas: 645
+   [Cientista/Física] Métricas calculadas com sucesso.
+   - distance_km: 5.97
+   - duration_seconds: 645
+   - avg_speed_kmh: 33.3
+   - max_speed_kmh: 62.0
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 243.25
+   - actual_co2_emitted_grams: 0
+   - baseline_co2_expected_grams: 1253.0
+   - co2_saved_grams: 1253
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: success
+   - co2_saved_grams: 1253
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 5.97
+   - co2_saved_grams: 1253
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 243.25
+   [Aviso] LLM indisponível para Investigador (Object of type int64 is not JSON serializable). Usando heurística.
+   - fraud_score_heuristico: 0
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 0
+   - distance_km: 5.97
+   - co2_saved_grams: 1253
+   [Aviso] LLM indisponível para o Juiz (Object of type int64 is not JSON serializable). Decisão automática (Score < 5).
+   - veredito_automatico: APROVADO ✅
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Preparando transação para a rede Besu...
+   - function_to_call: mintVerifiedCredit
+   - driver: 0xABCDEF...
+   - co2Grams: 1253
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: True
+   - fraud_score: 0
+   - co2_saved_grams: 1253
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{
+  "function_to_call": "mintVerifiedCredit",
+  "arguments": {
+    "driver": "0xABCDEF...",
+    "co2Grams": 1253,
+    "tokenURI": "ipfs://<METADATA>",
+    "auditReport": "Decis\u00e3o autom\u00e1tica baseada no score de risco 0."
+  }
+}
+
+========================================================================
+🧪 TESTE 4/10 | Arquivo: 04_falha_sensor_maf_mas_valido.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/04_falha_sensor_maf_mas_valido.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/04_falha_sensor_maf_mas_valido.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Linhas recebidas: 645
+   [Cientista/Física] Métricas calculadas com sucesso.
+   - distance_km: 5.97
+   - duration_seconds: 645
+   - avg_speed_kmh: 33.3
+   - max_speed_kmh: 62.0
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 243.25
+   - actual_co2_emitted_grams: 0
+   - baseline_co2_expected_grams: 1253.0
+   - co2_saved_grams: 1253
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: success
+   - co2_saved_grams: 1253
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 5.97
+   - co2_saved_grams: 1253
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 243.25
+   [Aviso] LLM indisponível para Investigador (Object of type int64 is not JSON serializable). Usando heurística.
+   - fraud_score_heuristico: 0
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 0
+   - distance_km: 5.97
+   - co2_saved_grams: 1253
+   [Aviso] LLM indisponível para o Juiz (Object of type int64 is not JSON serializable). Decisão automática (Score < 5).
+   - veredito_automatico: APROVADO ✅
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Preparando transação para a rede Besu...
+   - function_to_call: mintVerifiedCredit
+   - driver: 0xABCDEF...
+   - co2Grams: 1253
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: True
+   - fraud_score: 0
+   - co2_saved_grams: 1253
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{
+  "function_to_call": "mintVerifiedCredit",
+  "arguments": {
+    "driver": "0xABCDEF...",
+    "co2Grams": 1253,
+    "tokenURI": "ipfs://<METADATA>",
+    "auditReport": "Decis\u00e3o autom\u00e1tica baseada no score de risco 0."
+  }
+}
+
+========================================================================
+🧪 TESTE 5/10 | Arquivo: 05_motorista_agressivo.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/05_motorista_agressivo.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/05_motorista_agressivo.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Linhas recebidas: 645
+   [Cientista/Física] Métricas calculadas com sucesso.
+   - distance_km: 17.92
+   - duration_seconds: 645
+   - avg_speed_kmh: 100.0
+   - max_speed_kmh: 119.9
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 592.83
+   - actual_co2_emitted_grams: 0
+   - baseline_co2_expected_grams: 3762.68
+   - co2_saved_grams: 3762
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: success
+   - co2_saved_grams: 3762
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 17.92
+   - co2_saved_grams: 3762
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 592.83
+   [Aviso] LLM indisponível para Investigador (Object of type int64 is not JSON serializable). Usando heurística.
+   - fraud_score_heuristico: 0
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 0
+   - distance_km: 17.92
+   - co2_saved_grams: 3762
+   [Aviso] LLM indisponível para o Juiz (Object of type int64 is not JSON serializable). Decisão automática (Score < 5).
+   - veredito_automatico: APROVADO ✅
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Preparando transação para a rede Besu...
+   - function_to_call: mintVerifiedCredit
+   - driver: 0xABCDEF...
+   - co2Grams: 3762
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: True
+   - fraud_score: 0
+   - co2_saved_grams: 3762
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{
+  "function_to_call": "mintVerifiedCredit",
+  "arguments": {
+    "driver": "0xABCDEF...",
+    "co2Grams": 3762,
+    "tokenURI": "ipfs://<METADATA>",
+    "auditReport": "Decis\u00e3o autom\u00e1tica baseada no score de risco 0."
+  }
+}
+
+========================================================================
+🧪 TESTE 6/10 | Arquivo: 06_fraude_velocidade_impossivel.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/06_fraude_velocidade_impossivel.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/06_fraude_velocidade_impossivel.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Linhas recebidas: 645
+   [Cientista/Física] Métricas calculadas com sucesso.
+   - distance_km: 6.53
+   - duration_seconds: 645
+   - avg_speed_kmh: 36.43
+   - max_speed_kmh: 350.0
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 243.25
+   - actual_co2_emitted_grams: 0
+   - baseline_co2_expected_grams: 1370.66
+   - co2_saved_grams: 1370
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: success
+   - co2_saved_grams: 1370
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 6.53
+   - co2_saved_grams: 1370
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 243.25
+   [Aviso] LLM indisponível para Investigador (Object of type int64 is not JSON serializable). Usando heurística.
+   - fraud_score_heuristico: 0
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 0
+   - distance_km: 6.53
+   - co2_saved_grams: 1370
+   [Aviso] LLM indisponível para o Juiz (Object of type int64 is not JSON serializable). Decisão automática (Score < 5).
+   - veredito_automatico: APROVADO ✅
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Preparando transação para a rede Besu...
+   - function_to_call: mintVerifiedCredit
+   - driver: 0xABCDEF...
+   - co2Grams: 1370
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: True
+   - fraud_score: 0
+   - co2_saved_grams: 1370
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{
+  "function_to_call": "mintVerifiedCredit",
+  "arguments": {
+    "driver": "0xABCDEF...",
+    "co2Grams": 1370,
+    "tokenURI": "ipfs://<METADATA>",
+    "auditReport": "Decis\u00e3o autom\u00e1tica baseada no score de risco 0."
+  }
+}
+
+========================================================================
+🧪 TESTE 7/10 | Arquivo: 07_fraude_motor_desligado_em_movimento.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/07_fraude_motor_desligado_em_movimento.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/07_fraude_motor_desligado_em_movimento.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Linhas recebidas: 645
+   [Cientista/Física] Métricas calculadas com sucesso.
+   - distance_km: 10.75
+   - duration_seconds: 645
+   - avg_speed_kmh: 60.0
+   - max_speed_kmh: 60.0
+   - zero_rpm_moving_seconds: 645
+   - rpm_standard_deviation: 0.0
+   - actual_co2_emitted_grams: 0
+   - baseline_co2_expected_grams: 2257.5
+   - co2_saved_grams: 2257
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: success
+   - co2_saved_grams: 2257
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 10.75
+   - co2_saved_grams: 2257
+   - zero_rpm_moving_seconds: 645
+   - rpm_standard_deviation: 0.0
+   [Aviso] LLM indisponível para Investigador (Object of type int64 is not JSON serializable). Usando heurística.
+   - fraud_score_heuristico: 10
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 10
+   - distance_km: 10.75
+   - co2_saved_grams: 2257
+   [Aviso] LLM indisponível para o Juiz (Object of type int64 is not JSON serializable). Decisão automática (Score < 5).
+   - veredito_automatico: REJEITADO ❌
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Transação cancelada devido à rejeição do Juiz.
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: False
+   - fraud_score: 10
+   - co2_saved_grams: 0
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{}
+
+========================================================================
+🧪 TESTE 8/10 | Arquivo: 08_fraude_bot_gerador_de_dados.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/08_fraude_bot_gerador_de_dados.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/08_fraude_bot_gerador_de_dados.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Linhas recebidas: 645
+   [Cientista/Física] Métricas calculadas com sucesso.
+   - distance_km: 7.17
+   - duration_seconds: 645
+   - avg_speed_kmh: 40.0
+   - max_speed_kmh: 40.0
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 0.0
+   - actual_co2_emitted_grams: 1748.2
+   - baseline_co2_expected_grams: 1505.0
+   - co2_saved_grams: 0
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: success
+   - co2_saved_grams: 0
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 7.17
+   - co2_saved_grams: 0
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 0.0
+   [Investigador] Chamando LLM para avaliação comportamental...
+   [Investigador] LLM retornou análise textual.
+   - fraud_score: 0
+   [Investigador] Trecho do relatório: ...
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 0
+   - distance_km: 7.17
+   - co2_saved_grams: 0
+   [Juiz] Consultando LLM para laudo de auditoria final...
+   - veredito: REJEITADO ❌
+   [Juiz] Relatório completo:
+
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Transação cancelada devido à rejeição do Juiz.
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: False
+   - fraud_score: 0
+   - co2_saved_grams: 0
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{}
+
+========================================================================
+🧪 TESTE 9/10 | Arquivo: 09_fraude_sensor_temperatura_hackeado.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/09_fraude_sensor_temperatura_hackeado.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/09_fraude_sensor_temperatura_hackeado.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Linhas recebidas: 645
+   [Cientista/Física] Métricas calculadas com sucesso.
+   - distance_km: 5.97
+   - duration_seconds: 645
+   - avg_speed_kmh: 33.3
+   - max_speed_kmh: 62.0
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 243.25
+   - actual_co2_emitted_grams: 0
+   - baseline_co2_expected_grams: 1253.0
+   - co2_saved_grams: 1253
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: success
+   - co2_saved_grams: 1253
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 5.97
+   - co2_saved_grams: 1253
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 243.25
+   [Aviso] LLM indisponível para Investigador (Object of type int64 is not JSON serializable). Usando heurística.
+   - fraud_score_heuristico: 0
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 0
+   - distance_km: 5.97
+   - co2_saved_grams: 1253
+   [Aviso] LLM indisponível para o Juiz (Object of type int64 is not JSON serializable). Decisão automática (Score < 5).
+   - veredito_automatico: APROVADO ✅
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Preparando transação para a rede Besu...
+   - function_to_call: mintVerifiedCredit
+   - driver: 0xABCDEF...
+   - co2Grams: 1253
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: True
+   - fraud_score: 0
+   - co2_saved_grams: 1253
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{
+  "function_to_call": "mintVerifiedCredit",
+  "arguments": {
+    "driver": "0xABCDEF...",
+    "co2Grams": 1253,
+    "tokenURI": "ipfs://<METADATA>",
+    "auditReport": "Decis\u00e3o autom\u00e1tica baseada no score de risco 0."
+  }
+}
+
+========================================================================
+🧪 TESTE 10/10 | Arquivo: 10_arquivo_vazio_corrompido.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/10_arquivo_vazio_corrompido.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fastback_viagem_2/10_arquivo_vazio_corrompido.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Falha ao processar CSV: No columns to parse from file
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: error
+   - co2_saved_grams: 0
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 0
+   - co2_saved_grams: 0
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 0
+   [Investigador] Resumo veio com erro. Marcando como risco máximo.
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 10
+   - distance_km: 0
+   - co2_saved_grams: 0
+   [Juiz] Consultando LLM para laudo de auditoria final...
+   - veredito: REJEITADO ❌
+   [Juiz] Relatório completo:
+
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Transação cancelada devido à rejeição do Juiz.
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: False
+   - fraud_score: 10
+   - co2_saved_grams: 0
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{}

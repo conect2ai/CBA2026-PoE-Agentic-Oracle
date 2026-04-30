@@ -1,0 +1,655 @@
+
+========================================================================
+🚦 INICIANDO COMITÊ DE AUDITORIA IA (LANGGRAPH)
+========================================================================
+Fluxo: Scientist -> Investigator -> Judge -> ContractPreparer
+   - total_arquivos_csv: 10
+   - driver_wallet: 0xABCDEF...
+   - engine_size_cc: 1.0
+
+========================================================================
+🧪 TESTE 1/10 | Arquivo: 01_viagem_perfeita.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/01_viagem_perfeita.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/01_viagem_perfeita.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Linhas recebidas: 663
+   [Cientista/Física] Métricas calculadas com sucesso.
+   - distance_km: 5.85
+   - duration_seconds: 663
+   - avg_speed_kmh: 31.74
+   - max_speed_kmh: 65.0
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 425.65
+   - actual_co2_emitted_grams: 827.64
+   - baseline_co2_expected_grams: 1227.68
+   - co2_saved_grams: 400
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: success
+   - co2_saved_grams: 400
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 5.85
+   - co2_saved_grams: 400
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 425.65
+   [Investigador] Chamando LLM para avaliação comportamental...
+   [Investigador] LLM retornou análise textual.
+   - fraud_score: 0
+   [Investigador] Trecho do relatório: ...
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 0
+   - distance_km: 5.85
+   - co2_saved_grams: 400
+   [Juiz] Consultando LLM para laudo de auditoria final...
+   - veredito: REJEITADO ❌
+   [Juiz] Relatório completo:
+
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Transação cancelada devido à rejeição do Juiz.
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: False
+   - fraud_score: 0
+   - co2_saved_grams: 0
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{}
+
+========================================================================
+🧪 TESTE 2/10 | Arquivo: 02_eco_motorista.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/02_eco_motorista.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/02_eco_motorista.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Linhas recebidas: 663
+   [Cientista/Física] Métricas calculadas com sucesso.
+   - distance_km: 9.21
+   - duration_seconds: 663
+   - avg_speed_kmh: 50.0
+   - max_speed_kmh: 50.0
+   - zero_rpm_moving_seconds: 105
+   - rpm_standard_deviation: 255.39
+   - actual_co2_emitted_grams: 496.58
+   - baseline_co2_expected_grams: 1933.75
+   - co2_saved_grams: 1437
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: success
+   - co2_saved_grams: 1437
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 9.21
+   - co2_saved_grams: 1437
+   - zero_rpm_moving_seconds: 105
+   - rpm_standard_deviation: 255.39
+   [Investigador] Chamando LLM para avaliação comportamental...
+   [Investigador] LLM retornou análise textual.
+   - fraud_score: 0
+   [Investigador] Trecho do relatório: ...
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 0
+   - distance_km: 9.21
+   - co2_saved_grams: 1437
+   [Juiz] Consultando LLM para laudo de auditoria final...
+   - veredito: REJEITADO ❌
+   [Juiz] Relatório completo:
+
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Transação cancelada devido à rejeição do Juiz.
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: False
+   - fraud_score: 0
+   - co2_saved_grams: 0
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{}
+
+========================================================================
+🧪 TESTE 3/10 | Arquivo: 03_viagem_etanol.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/03_viagem_etanol.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/03_viagem_etanol.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Linhas recebidas: 663
+   [Cientista/Física] Métricas calculadas com sucesso.
+   - distance_km: 5.85
+   - duration_seconds: 663
+   - avg_speed_kmh: 31.74
+   - max_speed_kmh: 65.0
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 425.65
+   - actual_co2_emitted_grams: 816.34
+   - baseline_co2_expected_grams: 1227.68
+   - co2_saved_grams: 411
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: success
+   - co2_saved_grams: 411
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 5.85
+   - co2_saved_grams: 411
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 425.65
+   [Investigador] Chamando LLM para avaliação comportamental...
+   [Investigador] LLM retornou análise textual.
+   - fraud_score: 0
+   [Investigador] Trecho do relatório: ...
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 0
+   - distance_km: 5.85
+   - co2_saved_grams: 411
+   [Juiz] Consultando LLM para laudo de auditoria final...
+   - veredito: REJEITADO ❌
+   [Juiz] Relatório completo:
+
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Transação cancelada devido à rejeição do Juiz.
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: False
+   - fraud_score: 0
+   - co2_saved_grams: 0
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{}
+
+========================================================================
+🧪 TESTE 4/10 | Arquivo: 04_falha_sensor_maf_mas_valido.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/04_falha_sensor_maf_mas_valido.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/04_falha_sensor_maf_mas_valido.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Linhas recebidas: 663
+   [Cientista/Física] Métricas calculadas com sucesso.
+   - distance_km: 5.85
+   - duration_seconds: 663
+   - avg_speed_kmh: 31.74
+   - max_speed_kmh: 65.0
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 425.65
+   - actual_co2_emitted_grams: 654.69
+   - baseline_co2_expected_grams: 1227.68
+   - co2_saved_grams: 572
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: success
+   - co2_saved_grams: 572
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 5.85
+   - co2_saved_grams: 572
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 425.65
+   [Investigador] Chamando LLM para avaliação comportamental...
+   [Investigador] LLM retornou análise textual.
+   - fraud_score: 0
+   [Investigador] Trecho do relatório: ...
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 0
+   - distance_km: 5.85
+   - co2_saved_grams: 572
+   [Juiz] Consultando LLM para laudo de auditoria final...
+   - veredito: REJEITADO ❌
+   [Juiz] Relatório completo:
+
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Transação cancelada devido à rejeição do Juiz.
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: False
+   - fraud_score: 0
+   - co2_saved_grams: 0
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{}
+
+========================================================================
+🧪 TESTE 5/10 | Arquivo: 05_motorista_agressivo.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/05_motorista_agressivo.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/05_motorista_agressivo.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Linhas recebidas: 663
+   [Cientista/Física] Métricas calculadas com sucesso.
+   - distance_km: 18.4
+   - duration_seconds: 663
+   - avg_speed_kmh: 99.89
+   - max_speed_kmh: 119.98
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 553.55
+   - actual_co2_emitted_grams: 2069.1
+   - baseline_co2_expected_grams: 3863.27
+   - co2_saved_grams: 1794
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: success
+   - co2_saved_grams: 1794
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 18.4
+   - co2_saved_grams: 1794
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 553.55
+   [Investigador] Chamando LLM para avaliação comportamental...
+   [Investigador] LLM retornou análise textual.
+   - fraud_score: 0
+   [Investigador] Trecho do relatório: ...
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 0
+   - distance_km: 18.4
+   - co2_saved_grams: 1794
+   [Juiz] Consultando LLM para laudo de auditoria final...
+   - veredito: REJEITADO ❌
+   [Juiz] Relatório completo:
+
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Transação cancelada devido à rejeição do Juiz.
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: False
+   - fraud_score: 0
+   - co2_saved_grams: 0
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{}
+
+========================================================================
+🧪 TESTE 6/10 | Arquivo: 06_fraude_velocidade_impossivel.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/06_fraude_velocidade_impossivel.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/06_fraude_velocidade_impossivel.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Linhas recebidas: 663
+   [Cientista/Física] Métricas calculadas com sucesso.
+   - distance_km: 6.43
+   - duration_seconds: 663
+   - avg_speed_kmh: 34.91
+   - max_speed_kmh: 350.0
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 425.65
+   - actual_co2_emitted_grams: 827.64
+   - baseline_co2_expected_grams: 1350.18
+   - co2_saved_grams: 522
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: success
+   - co2_saved_grams: 522
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 6.43
+   - co2_saved_grams: 522
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 425.65
+   [Investigador] Chamando LLM para avaliação comportamental...
+   [Investigador] LLM retornou análise textual.
+   - fraud_score: 0
+   [Investigador] Trecho do relatório: ...
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 0
+   - distance_km: 6.43
+   - co2_saved_grams: 522
+   [Juiz] Consultando LLM para laudo de auditoria final...
+   - veredito: REJEITADO ❌
+   [Juiz] Relatório completo:
+
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Transação cancelada devido à rejeição do Juiz.
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: False
+   - fraud_score: 0
+   - co2_saved_grams: 0
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{}
+
+========================================================================
+🧪 TESTE 7/10 | Arquivo: 07_fraude_motor_desligado_em_movimento.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/07_fraude_motor_desligado_em_movimento.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/07_fraude_motor_desligado_em_movimento.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Linhas recebidas: 663
+   [Cientista/Física] Métricas calculadas com sucesso.
+   - distance_km: 11.05
+   - duration_seconds: 663
+   - avg_speed_kmh: 60.0
+   - max_speed_kmh: 60.0
+   - zero_rpm_moving_seconds: 663
+   - rpm_standard_deviation: 0.0
+   - actual_co2_emitted_grams: 827.64
+   - baseline_co2_expected_grams: 2320.5
+   - co2_saved_grams: 1492
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: success
+   - co2_saved_grams: 1492
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 11.05
+   - co2_saved_grams: 1492
+   - zero_rpm_moving_seconds: 663
+   - rpm_standard_deviation: 0.0
+   [Investigador] Chamando LLM para avaliação comportamental...
+   [Investigador] LLM retornou análise textual.
+   - fraud_score: 0
+   [Investigador] Trecho do relatório: ...
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 0
+   - distance_km: 11.05
+   - co2_saved_grams: 1492
+   [Juiz] Consultando LLM para laudo de auditoria final...
+   - veredito: REJEITADO ❌
+   [Juiz] Relatório completo:
+
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Transação cancelada devido à rejeição do Juiz.
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: False
+   - fraud_score: 0
+   - co2_saved_grams: 0
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{}
+
+========================================================================
+🧪 TESTE 8/10 | Arquivo: 08_fraude_bot_gerador_de_dados.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/08_fraude_bot_gerador_de_dados.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/08_fraude_bot_gerador_de_dados.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Linhas recebidas: 663
+   [Cientista/Física] Métricas calculadas com sucesso.
+   - distance_km: 7.37
+   - duration_seconds: 663
+   - avg_speed_kmh: 40.0
+   - max_speed_kmh: 40.0
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 0.0
+   - actual_co2_emitted_grams: 827.64
+   - baseline_co2_expected_grams: 1547.0
+   - co2_saved_grams: 719
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: success
+   - co2_saved_grams: 719
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 7.37
+   - co2_saved_grams: 719
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 0.0
+   [Investigador] Chamando LLM para avaliação comportamental...
+   [Investigador] LLM retornou análise textual.
+   - fraud_score: 0
+   [Investigador] Trecho do relatório: ...
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 0
+   - distance_km: 7.37
+   - co2_saved_grams: 719
+   [Juiz] Consultando LLM para laudo de auditoria final...
+   - veredito: REJEITADO ❌
+   [Juiz] Relatório completo:
+
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Transação cancelada devido à rejeição do Juiz.
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: False
+   - fraud_score: 0
+   - co2_saved_grams: 0
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{}
+
+========================================================================
+🧪 TESTE 9/10 | Arquivo: 09_fraude_sensor_temperatura_hackeado.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/09_fraude_sensor_temperatura_hackeado.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/09_fraude_sensor_temperatura_hackeado.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Linhas recebidas: 663
+   [Cientista/Física] Métricas calculadas com sucesso.
+   - distance_km: 5.85
+   - duration_seconds: 663
+   - avg_speed_kmh: 31.74
+   - max_speed_kmh: 65.0
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 425.65
+   - actual_co2_emitted_grams: 827.64
+   - baseline_co2_expected_grams: 1227.68
+   - co2_saved_grams: 400
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: success
+   - co2_saved_grams: 400
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 5.85
+   - co2_saved_grams: 400
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 425.65
+   [Investigador] Chamando LLM para avaliação comportamental...
+   [Investigador] LLM retornou análise textual.
+   - fraud_score: 0
+   [Investigador] Trecho do relatório: ...
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 0
+   - distance_km: 5.85
+   - co2_saved_grams: 400
+   [Juiz] Consultando LLM para laudo de auditoria final...
+   - veredito: REJEITADO ❌
+   [Juiz] Relatório completo:
+
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Transação cancelada devido à rejeição do Juiz.
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: False
+   - fraud_score: 0
+   - co2_saved_grams: 0
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{}
+
+========================================================================
+🧪 TESTE 10/10 | Arquivo: 10_arquivo_vazio_corrompido.csv
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/10_arquivo_vazio_corrompido.csv
+
+========================================================================
+🧮 [Agente 1 - Cientista] Início da análise físico-matemática
+========================================================================
+   - csv_file_path: ../data_synthetic/csv_testes_fit_viagem_2/10_arquivo_vazio_corrompido.csv
+   - engine_size_cc: 1.0
+   [Cientista/Física] Lendo CSV e normalizando colunas numéricas...
+   [Cientista/Física] Falha ao processar CSV: No columns to parse from file
+   [Agente 1 - Cientista] Resultado produzido e enviado ao Investigador.
+   - status: error
+   - co2_saved_grams: 0
+
+========================================================================
+🕵️‍♂️ [Agente 2 - Investigador] Início da auditoria de fraude
+========================================================================
+   [Investigador] Recebeu resumo matemático do Cientista.
+   - distance_km: 0
+   - co2_saved_grams: 0
+   - zero_rpm_moving_seconds: 0
+   - rpm_standard_deviation: 0
+   [Investigador] Resumo veio com erro. Marcando como risco máximo.
+
+========================================================================
+⚖️ [Agente 3 - Juiz Oráculo] Julgamento final
+========================================================================
+   [Juiz] Evidências recebidas.
+   - fraud_score: 10
+   - distance_km: 0
+   - co2_saved_grams: 0
+   [Juiz] Consultando LLM para laudo de auditoria final...
+   - veredito: REJEITADO ❌
+   [Juiz] Relatório completo:
+
+
+========================================================================
+🧾 [Nó Final - Blockchain] Preparação de payload
+========================================================================
+   [Blockchain] Transação cancelada devido à rejeição do Juiz.
+
+========================================================================
+🚀 RESULTADO FINAL DO WORKFLOW
+========================================================================
+   - audit_passed: False
+   - fraud_score: 10
+   - co2_saved_grams: 0
+
+--- PAYLOAD FINAL PARA O SMART CONTRACT ---
+{}
