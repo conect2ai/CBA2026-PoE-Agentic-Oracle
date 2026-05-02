@@ -5,7 +5,7 @@
 </p> 
 &nbsp;
 
-# PoE-Oracle: Auditoria Multiagente de Créditos de Carbono com Telemetria Veicular e Blockchain
+# PoE-Oracle: Auditoria Inteligente na Borda para Telemetria Veicular com Arquitetura Multiagente e Validação Ciberfísica
 
 Este repositório reúne os artefatos experimentais e a implementação de referência do estudo **PoE-Oracle (Proof-of-Eco Oracle)**, proposto para auditoria autônoma de trajetos veiculares com potencial de geração de crédito de carbono.
 
