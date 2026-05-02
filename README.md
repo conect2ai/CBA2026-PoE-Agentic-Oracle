@@ -9,6 +9,7 @@
 
 Este repositório reúne os artefatos experimentais e a implementação de referência do estudo **PoE-Oracle (Proof-of-Eco Oracle)**, proposto para auditoria autônoma de trajetos veiculares com potencial de geração de crédito de carbono.
 
+### Autores: [Miguel Amaral](https://github.com/MiguelEuripedes), [Marianne Silva](https://github.com/MarianneDiniz) e [Ivanovitch Silva](https://github.com/ivanovitchm)
 
 ## Resumo
 
